@@ -139,6 +139,19 @@ export const projects: {
     tech: ["Microsoft Autogen", "AI Agents", "Agentic AI", "Tavily Search", "OpenAI", "GPT-4o", "Streamlit"],
     link: "https://github.com/nihalpatel99/legacy-flight-autogen",
   },
+
+    {
+    name: "PyTorch Road Quality Classification",
+    description: "Built an end-to-end road surface quality classifier in PyTorch (TinyVGG CNN) trained on 5,000+ labeled images across 6 quality classes, with a full data pipeline (transforms, augmentation, ImageFolder datasets) in Jupyter.\n" +
+ "Instrumented model evaluation with MLflow experiment tracking — logging per-image predictions, confidence metrics, and result tables — for reproducible testing across model versions.\n"  +
+ "IShipped an interactive Streamlit app enabling non-technical users to upload a road image and get real-time quality predictions with per-class confidence scores..\n",
+    tech: ["PyTorch", "CNN", "TinyVGG", "Streamlit", "MLflow"],
+    link: "https://github.com/nihalpatel99/road-quality-classify",
+  },
+
+  
+
+
   {
     name: "Other Projects",
     description: "Other Projects",
