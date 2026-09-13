@@ -66,7 +66,7 @@ export const experience: {
     period: "Oct 2025 — Present",
     bullets: [
       "Designed, built, and deployed a production Agentic AI RAG system which includes query routing, sub-question decomposition, cross-encoder ranking and gated reflection as features reducing manual documentation lookup time by 84%.",
-      "Directed AI coding agents (Claude Code) to accelerate development, owning architecture, code quality and maintainability across the project.",
+      "Directed AI coding agents and software engineering practices to accelerate development, owning architecture, code quality and maintainability across the project.",
        "Built and deployed a production XGBoost model for time series anomaly detection from feature engineering to deployment, improving detection accuracy by 80% and 20% reduction in false positives.",
        "Debugged and resolved issues across application, model and infrastructure layers including LLM backend and hardware compatibility for production quality.",
        "Inegrated AI capabilities into backend services using FastAPI and Qdrant, ensuring reliable, production-grade AI workflows."
