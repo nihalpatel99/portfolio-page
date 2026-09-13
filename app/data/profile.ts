@@ -2,7 +2,7 @@
 
 export const profile = {
   name: "Nihal Aftab Patel",
-  title: "Data Scientist",
+  title: "Data Scientist / AI Engineer",
   location: "Dubai, United Arab Emirates",
   email: "nihal1999patel@gmail.com",
   socials: [
