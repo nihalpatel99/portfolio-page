@@ -108,10 +108,24 @@ export const projects: {
   },
   {
     name: "Aircraft Maintenance Assistant on Azure AI Foundry",
-    description: " Deployed Azure OpenAI gpt-5-mini model via Azure Endpoint for aircraft diagnosis and repair report generation on Azure Resource Group.\n" +
+    description: "Deployed Azure OpenAI gpt-5-mini model via Azure Endpoint for aircraft diagnosis and repair report generation on Azure Resource Group.\n" +
  "Integrated with Streamlit UI for flight maintenance team reducing manual checking by 30 hours per week.",
     tech: ["Azure OpenAI", "Microsoft Foundry", "Streamlit"],
     link: "https://github.com/nihalpatel99/aircraft-maintenance-assistant",
+  },
+  {
+    name: "Aerospace Medicine Assistant",
+    description: "Built an AI-powered aerospace medicine assistant using Azure AI Foundry, integrating an LLM agent with tool-use/MCP approval workflows and a knowledge base to answer pilot health, fatigue, and aeromedical compliance questions.\n" +
+ "Designed and shipped a Streamlit web interface with real-time chat, session-based conversation state, and an interactive human-in-the-loop approval flow for sensitive agent tool calls. Implemented secure Azure authentication and client integration (DefaultAzureCredential, AIProjectClient) alongside a CLI client, enabling flexible access for both technical and end-user workflows.",
+    tech: ["Azure OpenAI", "Microsoft Foundry", "Streamlit", "Microsoft Agent Framework", "Knowledge Base", "MLflow"],
+    link: "https://github.com/nihalpatel99/aerospace-medicine",
+  },
+  {
+    name: "ortfolio Risk & Trading Monitor",
+    description: "Built a multi-agent portfolio risk assistant using Microsoft's Agent Framework and Azure AI Foundry, orchestrating three specialized LLM agents (News Analyst, Risk Calculator, Advisor) via deterministic group-chat routing to generate synthesized trading recommendations.\n" +
+ "Designed a calculate_portfolio_risk tool computing position weights and Herfindahl-Hirschman Index (HHI) concentration metrics, enabling agents to ground qualitative risk analysis in quantitative portfolio data. Developed a full-stack web interface (FastAPI backend, React/Vite frontend) exposing the agent workflow via REST API, allowing users to submit holdings and risk preferences and view real-time multi-agent analysis in the browser.",
+    tech: ["Azure OpenAI", "Microsoft Foundry", "Streamlit", "Microsoft Agent Framework", "Multi-agent Orchestration", "FastAPI", "React"],
+    link: "https://github.com/nihalpatel99/portfolio-risk-trader",
   },
   {
     name: "CardiologyRAG",
