@@ -1,7 +1,4 @@
-// ---------------------------------------------------------------------------
-// EDIT ME: this file drives the whole site. Update the values below with
-// your own information. Everything else in the app just renders this data.
-// ---------------------------------------------------------------------------
+
 
 export const profile = {
   name: "Nihal Aftab Patel",
@@ -25,11 +22,11 @@ export const skills: { category: string; items: string[] }[] = [
   },
   {
     category: "Frameworks & Tools",
-    items: ["LangChain", "LangGraph", "Autogen", "Claude Code", "Qwen", "Gemma", "OpenAI", "MCP"],
+    items: ["LangChain", "LangGraph", "Autogen", "Claude Code", "Qwen", "Gemma", "OpenAI", "MCP", "Streamlit", "Jupyter Notebook"],
   },
   {
     category: "Machine Learning",
-    items: ["Scikit-learn", "Pytorch", "Statistical Modelling", "Model Deployment", "Model Evaluation"],
+    items: ["Scikit-learn", "PyTorch", "Statistical Modelling", "Model Deployment", "Model Evaluation", "TinyVGG", "MLflow", "MLOps", "Azure ML", "Azure Workspace", "Azure Compute Instance"],
   },
   {
     category: "Backend",
@@ -37,15 +34,15 @@ export const skills: { category: string; items: string[] }[] = [
   },
   {
     category: "Infrastructure",
-    items: ["Docker", "Git/GitHub", "Azure OpenAI", "Microsoft Foundry", "Azure Blob Storage"],
+    items: ["Docker", "Git/GitHub", "Microsoft Azure", "Azure OpenAI", "Microsoft Foundry", "Azure Blob Storage", "CI/CD", "GitHub Actions"],
   },
    {
     category: "Reporting & BI",
-    items: ["Power BI", "DAX", "Power Query", "Excel", "Power BI Service", "Dashboard", "KPI Reporting", "Business Intelligence"],
+    items: ["Power BI", "Databricks","DAX", "Power Query", "Excel", "Power BI Service", "Dashboard", "KPI Reporting", "Business Intelligence"],
   },
   {
     category: "Data Analytics",
-    items: ["Excel", "A/B Testing", "Exploratory Data Analysis", "Data Visualization", "Data Transformation", "Data Cleaning"]
+    items: ["Excel", "PySpark", "Pandas", "NumPy", "Matplotlib", "A/B Testing", "Exploratory Data Analysis", "Data Visualization", "Data Transformation", "Data Cleaning"]
   },
   {
     category: "Process Automation",
@@ -144,9 +141,29 @@ export const projects: {
     name: "PyTorch Road Quality Classification",
     description: "Built an end-to-end road surface quality classifier in PyTorch (TinyVGG CNN) trained on 5,000+ labeled images across 6 quality classes, with a full data pipeline (transforms, augmentation, ImageFolder datasets) in Jupyter.\n" +
  "Instrumented model evaluation with MLflow experiment tracking — logging per-image predictions, confidence metrics, and result tables — for reproducible testing across model versions.\n"  +
- "IShipped an interactive Streamlit app enabling non-technical users to upload a road image and get real-time quality predictions with per-class confidence scores..\n",
+ "Shipped an interactive Streamlit app enabling non-technical users to upload a road image and get real-time quality predictions with per-class confidence scores..\n",
     tech: ["PyTorch", "CNN", "TinyVGG", "Streamlit", "MLflow"],
     link: "https://github.com/nihalpatel99/road-quality-classify",
+  },
+
+     {
+    name: "ADNOC Stock Analysis — Databricks Project",
+    description: "Engineered SQL and Pyspark\n" +
+ "to clean and transform multi year ADNOC stoc dataset for financial reporting.\n"  +
+ "Conducted time series analysis and revealed 2021 as best performance year driven by 47% in trading volume and a single day spike of 36% on January 4, 2021. Return volality for ramadan was 10% less than regular periods.\n" +
+ "Modeled ramadan vs. regular periods volatility patterns that uncovered 10% reduction in price fluctuation during ramadan compared to trading periods.\n",
+    tech: ["PySpark", "SQL", "Databricks"],
+    link: "https://github.com/nihalpatel99/adnoc-stock-analysis",
+  },
+
+     {
+    name: "IKEA Product Sales Analysis with Azure ML",
+    description: "Built RandomForest classifier preidcting \n" +
+ "IKEA product sellable on over 400K products, achieving 92% accuracy and 0.96 F1-score.\n"  +
+ "Tracked 100+ estimator experiments with MLflow and resolved an Azure ML /logged-models incompatibility via local logging workaround gaining hands on experience on Azure ML.\n" +
+ "Shipped streamlit UI with 6 user inputs, delivering real time predictions with confidence scores.\n",
+    tech: ["Azure ML", "Azure Workspace", "Jupyter Notebook", "Azure Compute Instance", "Streamlit", "MLOps", "MLflow"],
+    link: "https://github.com/nihalpatel99/ikea-analysis",
   },
 
   
@@ -183,6 +200,12 @@ export const certifications: {
   date: string;
   link?: string;
 }[] = [
+  {
+    name: "Academy Accreditation - AI Agent Fundamentals",
+    issuer: "Databricks",
+    date: "Sep 2026",
+    link: "https://credentials.databricks.com/9c702d70-65cb-4b53-a120-07e4d1bbbc72#acc.SPVNQwyH",
+  },
   {
     name: "Certificate of completion: Claude Platform 101",
     issuer: "Anthropic",
