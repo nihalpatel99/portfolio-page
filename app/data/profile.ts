@@ -161,9 +161,9 @@ export const projects: {
   },
 
      {
-    name: "ADNOC Stock Analysis — Databricks Project",
+    name: "ADNOC Stock Analysis Databricks Project",
     description: "Engineered SQL and Pyspark\n" +
- "to clean and transform multi year ADNOC stoc dataset for financial reporting.\n"  +
+ "to clean and transform multi year ADNOC stock dataset for financial reporting.\n"  +
  "Conducted time series analysis and revealed 2021 as best performance year driven by 47% in trading volume and a single day spike of 36% on January 4, 2021. Return volality for ramadan was 10% less than regular periods.\n" +
  "Modeled ramadan vs. regular periods volatility patterns that uncovered 10% reduction in price fluctuation during ramadan compared to trading periods.\n",
     tech: ["PySpark", "SQL", "Databricks"],
