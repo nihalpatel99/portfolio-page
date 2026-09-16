@@ -73,7 +73,7 @@ export const experience: {
     ],
   },
   {
-    role: "Data Analyst Intern",
+    role: "Data Analyst",
     company: "Emerson FZE",
     period: "Aug 2024 — Jul 2025",
     bullets: [
@@ -158,6 +158,16 @@ export const projects: {
  "Shipped an interactive Streamlit app enabling non-technical users to upload a road image and get real-time quality predictions with per-class confidence scores..\n",
     tech: ["PyTorch", "CNN", "TinyVGG", "Streamlit", "MLflow"],
     link: "https://github.com/nihalpatel99/road-quality-classify",
+  },
+
+  {
+    name: "UAE Heat-Stress Compliance Automation ",
+    description: 
+ "Built n8n workflow to automatically flag high temperatures across work sites with OpenWeatherMap API and notifies supervisors of any violation.\n"  +
+ "Alert system tracks whether supervisor acknowledged to a warning and escalates to HSE officer if ignored." +
+ "Automated AI workflow that summaries today's log for HSE supervisor.\n",
+    tech: ["n8n", "Google Sheets", "OpenWeatherMap"],
+    link: "https://github.com/nihalpatel99/uae-workers-heat-break-alert",
   },
 
      {
