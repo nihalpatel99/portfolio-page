@@ -180,6 +180,14 @@ export const projects: {
     link: "https://github.com/nihalpatel99/adnoc-stock-analysis",
   },
 
+  {
+    name: "OHSA Workflow",
+    description: "•	Built a multi-agent facility safety and operations assistant on Azure AI Foundry, integrating OSHA/regulatory-compliance and predictive-maintenance agents via the Foundry Agents API and OpenAI Responses API, with per-agent conversation threading and citation-backed answers.\n" +
+ "•	Designed a FastAPI backend to securely bridge a React chat UI to Azure-authenticated agent services, keeping credentials server-side while exposing REST API endpoints for agent discovery, chat, and conversation history",
+    tech: ["Azure OpenAI", "Microsoft Foundry", "React", "Microsoft Agent Framework", "Manual Agent Switching", "FastAPI", "React"],
+    link: "https://github.com/nihalpatel99",
+  },
+
      {
     name: "IKEA Product Sales Analysis with Azure ML",
     description: "Built RandomForest classifier preidcting \n" +
