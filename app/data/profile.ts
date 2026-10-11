@@ -113,12 +113,26 @@ export const projects: {
     tech: ["Azure OpenAI", "Microsoft Foundry", "Streamlit"],
     link: "https://github.com/nihalpatel99/aircraft-maintenance-assistant",
   },
+   {
+    name: "n8n AI Support Ticket Triage",
+    description: "An end-to-end support automation system built with self-hosted n8n on Docker. Incoming tickets are validated, enriched with customer data, classified by an LLM, routed by priority, and escalated through a human-in-the-loop approval step. Background workflows monitor SLAs, send a daily digest, and catch failures.\n" +
+ "Built as a hands-on project to practise advanced n8n patterns: webhooks with authentication, structured LLM output, sub-workflows, wait/resume approvals, error workflows, scheduled jobs, loops, and rate-limit handling.",
+    tech: ["n8n", "Google Sheets", "OpenAI"],
+    link: "https://github.com/nihalpatel99/aerospace-medicine",
+  },
   {
     name: "Aerospace Medicine Assistant",
     description: "Built an AI-powered aerospace medicine assistant using Azure AI Foundry, integrating an LLM agent with tool-use/MCP approval workflows and a knowledge base to answer pilot health, fatigue, and aeromedical compliance questions.\n" +
  "Designed and shipped a Streamlit web interface with real-time chat, session-based conversation state, and an interactive human-in-the-loop approval flow for sensitive agent tool calls. Implemented secure Azure authentication and client integration (DefaultAzureCredential, AIProjectClient) alongside a CLI client, enabling flexible access for both technical and end-user workflows.",
     tech: ["Azure OpenAI", "Microsoft Foundry", "Streamlit", "Microsoft Agent Framework", "Knowledge Base", "MLflow"],
     link: "https://github.com/nihalpatel99/aerospace-medicine",
+  },
+    {
+    name: "Bayut Property Analysis",
+    description: "Analyzed 6,000+ monthly records of Dubai residential prices across 84 communities from 2020 to 2026 in Excel and set dynamic arrays custom LAMBDA functions and rolling time-series calculations to rank price growth, peak months and month-on-month volatility.\n" +
+ "Built an interactive market dashboard using Power Pivot and DAX.",
+    tech: ["Excel", "DAX","Power Pivot"],
+    link: "https://github.com/nihalpatel99/bayut-property-analysis",
   },
   {
     name: "Portfolio Risk & Trading Monitor",
